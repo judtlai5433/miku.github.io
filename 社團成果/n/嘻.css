@@ -1,0 +1,15 @@
+html,body{
+    cursor: url(插圖22.png), auto;
+}
+li a{
+    cursor:url(插圖d.png)16 16, pointer;
+    }
+.imagemain{
+    cursor:url(插圖d.png)16 16, pointer;
+}
+.hi{
+    cursor:url(插圖d.png)16 16, pointer;
+}
+#header1 .logo a{
+    cursor:url(插圖d.png)16 16, pointer;
+}

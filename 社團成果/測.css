@@ -1,0 +1,64 @@
+#nav{
+    grid-auto-flow: column; /* 自动将元素列在一行上 */ 
+    background-color: #f2f2f2; /* 设置浅色背景色 */
+    padding: 20px; /* 增加内边距以使内容居中 */
+}
+#nav .link{
+    display: flex;
+    justify-content: flex-start;
+}
+#nav .icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.link {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link a {
+    text-decoration: none;
+    color: #333;
+}
+
+.link a:hover {
+    color: #666;
+}
+
+/**/
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ece5e5;
+    border-style:solid;
+    border-color:#ece5e5;
+    border-width:thick;
+    border-radius: 10px;
+}
+header :hover {
+    color: #30bfe3; /* 设置链接鼠标悬停时的文本颜色 */
+    border-color:#30bfe3;
+}
+.logo :hover {
+    color: #30bfe3; /* 设置链接鼠标悬停时的文本颜色 */
+    border-color:#30bfe3;
+}
+.logo a{
+    text-decoration: none;
+    color: #ece5e5;
+}
+/**/
+.title ul li a{
+    background-image:url(favicon\ \(2\).ico);
+    width: 70px;
+    height: 70px;
+    text-indent: 101%;
+    overflow:hidden;
+
+    list-style:none;
+    white-space: nowrap;
+    float:left; 
+    background-repeat: no-repeat;
+  }
